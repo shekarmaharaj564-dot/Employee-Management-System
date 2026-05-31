@@ -29,8 +29,7 @@ This project demonstrates the use of:
 * Java 8+
 * Collections Framework
 
-  * ArrayList
-* Optional API
+* ArrayList
 * Stream API
 * Exception Handling
 
@@ -98,20 +97,6 @@ java Main
 5. Remove Employee
 6. Employees By Department
 7. Exit
-
----
-
-## Assignment Requirements Covered
-
-| Requirement           | Implementation                                  |
-| --------------------- | ----------------------------------------------- |
-| OOP Concepts          | Employee, EmployeeManagement, EmployeeException |
-| Collections Framework | ArrayList                                       |
-| Custom Exceptions     | EmployeeException                               |
-| Optional API          | findEmployee()                                  |
-| Stream API            | filter(), collect()                             |
-| Lambda Expressions    | forEach()                                       |
-| Input Validation      | Employee ID and Menu Validation                 |
 
 ---
 
