@@ -1,105 +1,52 @@
 # Employee Management System
 
-## Overview
+This project is developed using Java and OOP concepts.
 
-Employee Management System is a Java console application developed using Object-Oriented Programming (OOP) concepts.
-
-The application allows users to:
-
-* Add Employees
-* Display Employees
-* Search Employees
-* Update Employee Salary
-* Remove Employees
-* Filter Employees by Department
-
-This project demonstrates the use of:
-
-* OOP Principles
-* Java Collections Framework
-* Custom Exception Handling
-* Java 8 Optional API
-* Java 8 Stream API
-* Input Validation
-
----
-
-## Technologies Used
-
-* Java 8+
-* Collections Framework
-
-* ArrayList
-* Stream API
-* Exception Handling
-
----
-
-## Features
-
-### Employee Management
+Features:
 
 * Add Employee
-* Display All Employees
-* Search Employee by ID
+* Display Employees
+* Search Employee
 * Update Employee Salary
 * Remove Employee
+* Filter Employees by Department
+* Employee ID Validation
 
-### Department Management
+Concepts Used:
 
-* View Employees by Department
+* OOP Concepts
+* ArrayList
+* Custom Exception Handling
+* Java 8 Optional API
+* Java 8 Streams
+* Lambda Expressions
+* Input Validation
 
-### Exception Handling
+Files:
+
+* Employee.java
+* EmployeeManagement.java
+* EmployeeException.java
+* Main.java
+
+How to Run:
+
+1. Open project in Eclipse
+2. Run Main.java
+3. Use menu options in console
+
+Exception Handling:
 
 * Invalid Employee ID
 * Duplicate Employee ID
 * Employee Not Found
 * Invalid User Input
 
-### Java 8 Features
+Java 8 Features:
 
-* Optional API for safe object retrieval
-* Stream API for searching and filtering
-* Lambda Expressions for collection traversal
+* Optional API for safe employee retrieval
+* Stream API for searching and filtering employees
+* Lambda Expressions for displaying employee records
 
----
-
-## Project Structure
-
-src/
-├── Employee.java
-├── EmployeeManagement.java
-├── EmployeeException.java
-└── Main.java
-
----
-
-## How to Compile
-
-```bash
-javac *.java
-```
-
-## How to Run
-
-```bash
-java Main
-```
-
----
-
-## Sample Functionalities
-
-1. Add Employee
-2. Display Employees
-3. Search Employee
-4. Update Salary
-5. Remove Employee
-6. Employees By Department
-7. Exit
-
----
-
-## Author
-
-Shekar Maharaj
+Author:
+Chandrashekhar Mahagonkar 
